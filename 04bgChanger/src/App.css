@@ -1,0 +1,49 @@
+#bg{
+    width : 100vw;
+    height : 100vh;
+    tansition : all 0.5s ease;
+    display:flex;
+    justify-content: flex-end;
+    flex-direction:column;
+    align-items:center;
+    transition : background-color .5s ease;
+}
+#box{
+    width : 80%;
+    height : 60px;
+    background-color : #ffffff;
+    border-radius:50px;
+    margin-bottom:30px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap : 100px;
+    border: 1px dashed black;
+    backdrop-filter: blur(30px);
+    background: rgba(255, 255, 255, 0.39);
+    border: 1px solid rgba(255,255,255,0.3);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+#box button{
+    cursor : pointer;
+    border-radius: 50px;
+    width : 100px;
+    height:30px;
+    color: #ffffff;
+    transition : all .5s ease;
+}
+
+button:hover{
+    transform: scale(1.4)  rotate(-50deg);
+    
+}
+button:focus {
+    border: 2px solid white;
+}
+
+
+button:active {
+    transform: scale(1.5);
+}
+
