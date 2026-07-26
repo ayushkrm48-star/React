@@ -5,8 +5,10 @@ import heroImg from './assets/hero.png'
 import './App.css'
 import Card from '/Users/sumitkumarmaurya/React/03TailwindProps/components/Card.jsx'
 
-function App() {
+import Header from '/Users/sumitkumarmaurya/React/03TailwindProps/components/header.jsx'
 
+
+function App() {
 
   return (
     <>
@@ -15,6 +17,11 @@ function App() {
 
       <Card userName="Sumit Kumar Maurya" btnText="Read More" />
       </div>
+      <Header />
+
+      
+
+
      
     </>
   )

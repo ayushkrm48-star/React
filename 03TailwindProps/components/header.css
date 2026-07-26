@@ -1,0 +1,76 @@
+*{
+    margin : 0;
+    padding : 0;
+    --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
+    font-weight : bold;
+    color : white;
+}
+
+#header{
+    height : 50px;
+    width : 80%;
+    margin-left:50px;
+    margin-right:50px;
+    margin-top : 20px;
+    border-radius : 20px;
+    background : linear-gradient(
+        to right,
+        #667eea,
+        #764ba2
+    );
+
+    display : flex;
+    justify-content : space-between;
+    align-items : center;
+    flex-direction : row;
+
+
+}
+
+
+
+#header1{
+    margin-left:50px;
+    width : 100px;
+    height:30px;
+    border-radius : 10px;
+    background-color : #080a77;
+    cursor : pointer;
+    transition : all 0.5s ease;
+}
+
+#header3{
+    padding-right : 50px;
+}
+
+#header2{
+    display : flex;
+    justify-content : center;
+    flex-direction : row;
+    gap : 30px;
+}
+
+#header2 button{
+    background-color : #080a77;
+    cursor : pointer;
+    width : 100px;
+    height : 30px;
+    border-radius : 10px;
+    transition : all 0.5s ease;
+}
+
+#header2 button:hover{
+    transform : rotate(30deg) scale(1.5);
+    background-color : #013340cb;
+    border-radius : 50px;
+}
+
+
+#header1:hover{
+    transform : rotate(30deg) scale(1.5);
+    background-color : #013340cb;
+    border-radius : 50px;
+}
+
+
+
