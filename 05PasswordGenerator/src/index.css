@@ -1,0 +1,25 @@
+#root{
+  width:100vw;
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+  background-color: #C8FF3D;
+  gap : 40px;
+  text-color: #2D1B69
+}
+
+#box1{
+  background-color : #E46CFF;
+  width : 250px;
+  height :40px;
+  display : flex;
+  justify-content:center;
+  align-items:center;
+  font-size:1.3rem;
+  border-radius : 5px;
+  border : 2px solid white;
+  color: #2e0F35
+
+}
